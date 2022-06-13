@@ -7,7 +7,7 @@ wn.title("OTP Verification")
 wn.configure(bg="cyan")
 def verify():
     c=str(a.get())
-    os.system(r"C:\Users\Friends\AppData\Local\Programs\Python\Python310\sendmail.py"+" "+c)
+    os.system(r"C:\Users\Friends\AppData\Local\Programs\Python\Python310\sendmail.py"+" "+c)#change path acc. to required
 label=Label(wn,text="OTP Verification",relief="solid",font=("Times New Roman",30),fg="black",bg="light pink").pack(fill=BOTH)
 a=StringVar()
 Re=Label(wn,text="EMAIL ID :-",font=("Times New Roman",25,"italic"),bg="cyan").place(x=200,y=70)
