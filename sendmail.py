@@ -21,8 +21,8 @@ print(OTP)
 import smtplib
 s=smtplib.SMTP("smtp.gmail.com",587)
 s.starttls()
-s.login("mea396524@gmail.com","wodyretxpjgwkrtl")
+s.login("mea396524@gmail.com","wodyretxpjgwkrtl")#emailid,apppassword
 print(msg)
 s.sendmail("mea396524@gmail.com",mailid,msg)
 wn.mainloop()
-os.system(r"C:\Users\Friends\AppData\Local\Programs\Python\Python310\second.py")
+os.system(r"C:\Users\Friends\AppData\Local\Programs\Python\Python310\second.py")#change path acc. to required
