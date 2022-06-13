@@ -20,7 +20,7 @@ def verify():
         wn.destroy()
     else:
         cmd1=str(a.get())
-        os.system(r"C:\Users\Friends\AppData\Local\Programs\Python\Python310\verify.py"+" "+cmd1)
+        os.system(r"C:\Users\Friends\AppData\Local\Programs\Python\Python310\verify.py"+" "+cmd1)#change path acc. to required
         ok="Invalid OTP: "+str((count-1))+" attempts remaining"
         count=count-1
         f1=open("status.txt","r")
